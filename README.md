@@ -34,3 +34,33 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/coding-journal.git
    cd coding-journal
+   Install dependencies:
+
+bash
+2. Copy code
+npm install
+Set up Firebase:
+
+Create a Firebase project at Firebase Console.
+Add Firebase configuration details to src/firebase/config.js.
+Start the development server:
+
+bash
+Copy code
+npm start
+Open the app in your browser at http://localhost:3000.
+
+Usage
+Adding a Question: Navigate to the "Add Question" page, fill in the required details, and submit the form to add a new coding question.
+
+Viewing Questions: Visit the "View Questions" page to see all saved questions in a table format. Click on "Take Note" to open a new page for taking notes related to that question.
+
+Taking Notes: When viewing a question, click "Take Note" to open a new page where you can write and save notes related to that question.
+
+Technologies Used
+React
+Firebase (Firestore for database, Authentication for user management)
+HTML/CSS
+JavaScript
+Contributing
+Contributions are welcome! If you have any suggestions, improvements, or feature requests, feel free to open an issue or create a pull request.
