@@ -1,0 +1,36 @@
+/* src/components/Home.css */
+
+.home {
+    padding: 2em;
+    background-color: black;
+  }
+  
+  .hero {
+    background-color: #4caf50;
+    color: white;
+    padding: 2em;
+    border-radius: 8px;
+    margin-bottom: 2em;
+  }
+  
+  .hero h1 {
+    margin-top: 0;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature {
+    width: 30%;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h2 {
+    margin-top: 0;
+  }
+  
